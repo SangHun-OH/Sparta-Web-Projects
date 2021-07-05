@@ -8,6 +8,7 @@ client = MongoClient('localhost', 27017)
 db = client.dbsparta
 
 
+
 # HTML 화면 보여주기
 @app.route('/')
 def home():
